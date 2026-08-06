@@ -181,7 +181,7 @@ while (true) {
 // Criação do objeto com suas propriedades
 let perfilInstagram = {
     username: "joaosilva",
-    bio: "Apaixonado por tecnologia 🚀",
+    bio: "Apaixonado por tecnologia ",
     seguidores: 1200,
     estaAtivo: 1 // 1 = ativo, 0 = inativo
 };
@@ -225,7 +225,7 @@ Pontos-chave para revisão:
 
 Objetos em JS são dinâmicos: propriedades podem ser adicionadas depois da criação
 delete objeto.propriedade remove permanentemente a propriedade do objeto
-5️⃣ Objeto celular (for...in para ler e atualizar)
+ Objeto celular (for...in para ler e atualizar)
 // ===== OBJETO CELULAR =====
 
 // Criação do objeto inicial
@@ -261,7 +261,7 @@ Pontos-chave para revisão:
 for (let chave in objeto) percorre todas as chaves (nomes das propriedades)
 objeto[chave] (notação de colchetes) é usado quando o nome da propriedade está em uma variável
 Diferente de for...of, que percorre valores de arrays/iteráveis
-6️⃣ Objeto notasAluno (média com for...in)
+ Objeto notasAluno (média com for...in)
 // ===== NOTAS DO ALUNO =====
 
 // Objeto onde cada chave é uma disciplina e o valor é a nota
@@ -300,7 +300,7 @@ Pontos-chave para revisão:
 Acumuladores (somaNotas, quantidade) são variáveis que somam valores durante o loop
 toFixed(2) arredonda/formata número com 2 casas decimais (retorna string)
 Estrutura clássica de média: soma total ÷ quantidade de itens
-7️⃣ Playlist (array de objetos + push + for...of)
+ Playlist (array de objetos + push + for...of)
 // ===== PLAYLIST DE MÚSICAS =====
 
 // Array contendo 3 objetos (músicas)
@@ -330,7 +330,7 @@ Pontos-chave para revisão:
 for...of é ideal para percorrer arrays, retornando cada elemento diretamente (não o índice)
 push({...}) adiciona um objeto literal diretamente ao array
 Filtragem manual com if dentro do loop (poderia também usar .filter())
-8️⃣ Biblioteca de Jogos (zerados + soma total)
+Biblioteca de Jogos (zerados + soma total)
 // ===== BIBLIOTECA DE JOGOS =====
 
 let bibliotecaJogos = [
@@ -365,7 +365,7 @@ Pontos-chave para revisão:
 for clássico permite acesso ao índice i, útil quando se precisa da posição
 Comparar booleanos: jogo.zerado === true (ou apenas if (jogo.zerado))
 Soma acumulada dentro do mesmo loop que filtra os zerados (uma única passada — eficiente)
-9️⃣ Cardápio da Cantina (Menu Interativo)
+ Cardápio da Cantina (Menu Interativo)
 // ===== CARDÁPIO DA CANTINA - MENU INTERATIVO =====
 
 // Array de objetos representando o cardápio inicial
