@@ -1,6 +1,7 @@
 Atividades sobre java 
 
-Esse repositório separa exemplos de linguagem java exemplos gerado por ia e testes feitos pelo próprio aluno 
+Esse repositório separa exemplos de linguagem java exemplos gerado pelo próprio aluno e com legendas em ia para melhor compreenção
+
 
 let compras = [];
 let total = 0;
